@@ -9,7 +9,7 @@ class App extends Component {
 	constructor() {
 		super() // calls constructor of Component
 		this.state = {
-			robots: robots,
+			robots: [],
 			searchfield: ''
 		}
 	}
